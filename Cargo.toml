@@ -1,0 +1,13 @@
+[package]
+name = "event-watcher-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy = { version = "1.0.23", features = ["provider-ws", "contract"] }
+# alloy-contract = "1.0.23"
+alloy-sol-types = "1.0.23"
+eyre = "0.6"
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3.31"
+dotenvy = "0.15"
